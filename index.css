@@ -1,0 +1,148 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  background-color: #93bcb6;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #00a6d4;
+  align-items: center;
+  font-size: 2em;
+}
+
+#greeting {
+  margin-left: 20px;
+}
+
+#logo {
+  margin-right: 20px;
+}
+
+#main-aside-container {
+  display: flex;
+  height: 100%;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 75%;
+}
+
+#last-walk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+  height: 50px;
+  width: 100%;
+  background-color: #f76656;
+  color: #f7f7f7;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  background-image: url('./images/map-my-run.png');
+  background-size: cover;
+
+}
+
+#walk-avg {
+  height: 300px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+#walk-avg-stat {
+  height: 10%;
+  margin: 0;
+  color: #f76656;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+#walk-avg-img {
+  background-image: url('./images/line_graph.png');
+  background-size: cover;
+  height:90%;
+}
+
+#walking-buddies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 40%;
+  color: #58706f;
+}
+
+.user-pic {
+
+}
+
+#user-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#user-one {
+  background-image: url('./images/user1.png');
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+
+}
+
+#user-two {
+  background-image: url('./images/user2.png');
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+
+}
+
+#user-three {
+  background-image: url('./images/user3.png');
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+
+}
+
+#aside {
+  background-color: #58706f;
+  height: 750px;
+  width: 25%;
+}
+
+@media screen and (max-width: 800px) {
+  #aside {
+    display: none;
+  }
+
+  #main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #walk-avg {
+    width: 100%;
+  }
+
+  #walking-buddies {
+    display: none;
+  }
+}
