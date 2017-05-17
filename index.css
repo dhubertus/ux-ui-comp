@@ -4,6 +4,29 @@ body {
   width: 100%;
 }
 
+.nav-bar-text{
+  color: #93bcb6;
+  font-size: 20px;
+}
+
+.nav-bar-text:hover{
+  box-shadow: 3px -2px 12px 2px black;
+  color: white;
+}
+
+img{
+  height: 25px;
+  margin-left: 3%;
+  align-items: baseline;
+}
+
+.now{
+  height: 50px;
+  margin: -7px;
+  display:inline;
+
+}
+
 #header {
   background-color: #93bcb6;
   height: 100px;
@@ -34,6 +57,7 @@ body {
   height: 100%;
   width: 75%;
 }
+
 
 #last-walk {
   display: flex;
