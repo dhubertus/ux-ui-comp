@@ -14,6 +14,19 @@ body {
   color: white;
 }
 
+img{
+  height: 25px;
+  margin-left: 3%;
+  align-items: baseline;
+}
+
+.now{
+  height: 50px;
+  margin: -7px;
+  display:inline;
+
+}
+
 #header {
   background-color: #93bcb6;
   height: 100px;
